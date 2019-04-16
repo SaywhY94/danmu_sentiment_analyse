@@ -11,6 +11,7 @@ python sentiment_analyse.py -i 'filename' -c 'column' -n 16
 1. ``-i``或``--inpath``：输入excel文件的名称
 2. ``-c``或``--column``：输入数据要处理的列明
 3. ``-n``或``--ncores``：处理是并行的线程数
+
 示例：python sentiment_analyse.py -i type1.xlsx -c message -n 16
 
 如需要查看命令行参数可输入
